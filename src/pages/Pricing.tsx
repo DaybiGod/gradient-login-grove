@@ -18,10 +18,18 @@ const Pricing = () => {
       <div className="flex-1 flex items-center justify-center">
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl w-full px-4">
           {/* Unlimited Plan */}
-          <div className="w-full p-8 rounded-xl bg-black/40 backdrop-blur-xl border border-gray-800 space-y-6">
+          <div className="relative w-full p-8 rounded-xl bg-black/40 backdrop-blur-xl border border-gray-800 space-y-6">
+            <div className="absolute -top-3 -right-3">
+              <span className="px-3 py-1 text-xs font-medium bg-green-500 text-white rounded-full shadow-lg">
+                Precio de lanzamiento
+              </span>
+            </div>
             <div className="space-y-2">
               <h2 className="text-2xl font-bold text-white">Unlimited</h2>
-              <p className="text-3xl font-bold text-white">$3<span className="text-lg font-normal">/week</span></p>
+              <div className="flex items-center gap-2">
+                <p className="text-3xl font-bold text-white">$3<span className="text-lg font-normal">/week</span></p>
+                <p className="text-xl text-gray-400 line-through">$6<span className="text-sm">/week</span></p>
+              </div>
             </div>
             <ul className="space-y-4 text-gray-300">
               <li>✓ Acceso ilimitado a Xtarify</li>
