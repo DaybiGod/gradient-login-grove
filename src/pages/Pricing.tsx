@@ -27,8 +27,8 @@ const Pricing = () => {
             <div className="space-y-2">
               <h2 className="text-2xl font-bold text-white">Unlimited</h2>
               <div className="flex items-center gap-2">
-                <p className="text-3xl font-bold text-white">$3<span className="text-lg font-normal">/week</span></p>
                 <p className="text-xl text-gray-400 line-through">$6<span className="text-sm">/week</span></p>
+                <p className="text-3xl font-bold text-white">$3<span className="text-lg font-normal">/week</span></p>
               </div>
             </div>
             <ul className="space-y-4 text-gray-300">
